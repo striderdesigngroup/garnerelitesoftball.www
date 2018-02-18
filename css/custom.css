@@ -1,0 +1,77 @@
+nav.navbar {
+	margin-bottom: 2rem;
+}
+
+.img-fluid {
+	margin-bottom: 1.25rem;
+}
+
+a.nav-link {
+	color: white !important;
+}
+
+	a.nav-link:hover,
+	a.nav-link:focus {
+		color: #FFCB3E !important;
+	}
+
+
+.bg-primary {
+	background: #4a76cf !important;
+}
+
+.bg-secondary {
+	background: #FFCB3E !important;;
+}
+
+a {
+	color: #4a76cf !important;
+}
+
+.footer {
+	padding: 2rem 0 1.5rem;
+	color: #4a76cf;
+	font-size: .9rem;
+}
+
+.navbar-brand {
+	color: #FFCB3E !important;
+}
+
+a.active {
+	color: #FFCB3E !important;
+}
+
+.card-body {
+	background-color: #FFCB3E;
+}
+
+.card-text {
+	text-align: center;
+}
+
+h2 {
+	color: #4a76cf !important;
+	margin-bottom: 1rem !important;
+}
+
+/* ==== GALLERY ==== */
+
+#instafeed {
+	width: 100% !important;
+}
+
+#instafeed img {
+	width: 9rem;
+	margin: 0 .75rem .75rem 0 !important;
+}
+
+
+
+
+
+
+
+
+
+
