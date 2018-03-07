@@ -66,9 +66,38 @@ h2 {
 	margin: 0 .75rem .75rem 0 !important;
 }
 
+/* ==== SPONSORS ==== */
 
+.jumbotron {
+	padding: 1rem 1.5rem !important;
+	text-align: center;
+	color: black;
+}
 
+	.jumbotron h1 {
+		font-size: 2rem;
+		margin: 0 0 2rem 0;
+	}
 
+	.jumbotron a,
+	.jumbotron {
+		font-size: 1.65rem;
+		color: black !important;
+	}
+
+.jumbotron-gold {
+	background-color: #FFCB3E;
+}
+
+.jumbotron-silver {
+	background-color: #D6D5DD;
+}
+
+.jumbotron-bronze {
+	background-color: #B5695C;
+}
+
+	
 
 
 
