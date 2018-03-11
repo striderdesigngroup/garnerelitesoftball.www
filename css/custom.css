@@ -20,6 +20,11 @@ a.nav-link {
 	background: #4a76cf !important;
 }
 
+.btn-primary {
+	background: #4a76cf !important;
+	border: #4a76cf !important;
+}
+
 .bg-secondary {
 	background: #FFCB3E !important;;
 }
@@ -98,7 +103,17 @@ h2 {
 }
 
 	
+/* ===== FORM STYLES ==== */
 
+label {
+    color: #333;
+}
+
+
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+}
 
 
 
