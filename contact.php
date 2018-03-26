@@ -4,21 +4,20 @@ require('recaptcha-master/src/autoload.php');
 
 // configure
 // an email address that will be in the From field of the email.
-$from = 'Garner Elite 12u Softball Website <info@garnerelite12u.com>';
+$from = 'info@garnerelitesoftball.com';
 
 // an email address that will receive the email with the output of the form
-$sendTo = 'Garner Elite 12u Softball <garnerelite12u@gmail.com>';
-$sendTo = 'Strider Design Group <samanthacstrider@gmail.com>';
+$sendTo = 'Garner Elite Softball <garnerelite12u@gmail.com>, Jody Stephens <nctarheel@nc.rr.com>, Strider Design Group <samanthacstrider@gmail.com>';
 
 // subject of the email
-$subject = 'Garner Elite 12u Softball Contact Request Form ';
+$subject = 'Garner Elite Softball Contact Form Request';
 
 // form field names and their translations.
 // array variable name => Text to appear in the email
 $fields = array('name' => 'First Name', 'surname' => 'Last Name', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 
 // message that will be displayed when everything is OK :)
-$okMessage = 'Contact form successfully submitted. Thank you, I will get back to you soon!';
+$okMessage = 'Thank you for submitting a contact request. We will get back to you soon.';
 
 // If something goes wrong, we will display this message.
 $errorMessage = 'There was an error while submitting the form. Please try again later';
@@ -75,7 +74,6 @@ try {
         mail($sendTo, $subject, $emailText, implode("\n", $headers));
 
         //$responseArray = array('type' => 'success', 'message' => $okMessage);
-
         header('Location: contact-thank-you.html');
         exit();
     }
