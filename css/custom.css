@@ -15,7 +15,6 @@ a.nav-link {
 		color: #FFCB3E !important;
 	}
 
-
 .bg-primary {
 	background: #4a76cf !important;
 }
@@ -26,7 +25,7 @@ a.nav-link {
 }
 
 .bg-secondary {
-	background: #FFCB3E !important;;
+	background: #FFCB3E !important;
 }
 
 a {
@@ -41,6 +40,11 @@ a {
 
 .navbar-brand {
 	color: #FFCB3E !important;
+}
+
+button.hamburger {
+	background: #4a76cf !important;
+	border: none;
 }
 
 a.active {
@@ -81,13 +85,18 @@ h2 {
 
 	.jumbotron h1 {
 		font-size: 2rem;
-		margin: 0 0 2rem 0;
 	}
 
 	.jumbotron a,
 	.jumbotron {
 		font-size: 1.65rem;
 		color: black !important;
+		
+	}
+
+	.jumbotron a img,
+	.jumbotron img {
+		padding-top: 3rem !important;
 	}
 
 .jumbotron-gold {
@@ -101,6 +110,11 @@ h2 {
 .jumbotron-bronze {
 	background-color: #B5695C;
 }
+
+.jumbotron-white {
+	background-color: white;
+}
+
 	
 /* ===== FORM STYLES ==== */
 
