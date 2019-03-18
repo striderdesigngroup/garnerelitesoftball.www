@@ -4,10 +4,17 @@ nav.navbar {
 
 a.navbar-brand {
 	font-size: 1.85rem;
+	font-family: 'Graduate', cursive;
+	text-transform: uppercase;
 }
 
 .img-fluid {
 	margin-bottom: 1.25rem;
+	width: 100% !important;
+}
+
+.small-text {
+	font-size: 80%;
 }
 
 a.nav-link {
@@ -26,7 +33,13 @@ a.nav-link {
 .btn-primary {
 	background: #4a76cf !important;
 	border: #4a76cf !important;
+	color: white !important;
 }
+
+	.btn-primary:hover {
+		background: black  !important;
+		border: black  !important;
+	}
 
 .bg-secondary {
 	background: #FFCB3E !important;
@@ -63,7 +76,8 @@ a.active {
 	text-align: center;
 }
 
-h2 {
+h2,
+h4 {
 	color: #4a76cf !important;
 	margin-bottom: 1rem !important;
 }
@@ -75,8 +89,8 @@ h2 {
 }
 
 #instafeed img {
-	width: 9rem;
-	margin: 0 .75rem .75rem 0 !important;
+	width: 150px;
+	margin: 0.35rem !important;
 }
 
 /* ==== SPONSORS ==== */
