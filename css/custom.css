@@ -8,6 +8,12 @@ a.navbar-brand {
 	text-transform: uppercase;
 }
 
+@media screen and (max-width: 476px) {
+	a.navbar-brand {
+		font-size: 98%;
+	}
+}
+
 .img-fluid {
 	margin-bottom: 1.25rem;
 	width: 100% !important;
