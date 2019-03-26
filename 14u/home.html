@@ -19,19 +19,6 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Graduate" rel="stylesheet" />
 
-    <script type="text/javascript" src="../js/instafeed.min.js"></script>
-
-    <script type="text/javascript">
-        var userFeed = new Instafeed({
-            get: 'user',
-            userId: 10423769008,
-            accessToken: '10423769008.1677ed0.4e443594dc2f4e6ebb14d254058e3744',
-            limit: 14,
-            template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
-        });
-        userFeed.run();
-    </script>
-
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/custom.css" />
@@ -88,13 +75,16 @@
         <div class="col-md-8">
           <img src="image/team-photo-14u.jpg" class="img-fluid" />
           <div class="row mb-2">
-            <div class="col-md-4 mb-3">
+            <div class="col-lg-3 col-md-6 mb-3">
               <a href="roster.html" class="btn btn-lg btn-primary w-100">Roster</a>
             </div>
-            <div class="col-md-4 mb-3 mx-0">
+            <div class="col-lg-3 col-md-6 mb-3 mx-0">
               <a href="sponsors.html" class="btn btn-lg btn-primary w-100">Sponsors</a>
             </div>
-            <div class="col-md-4 mb-3">
+            <div class="col-lg-3 col-md-6 mb-3">
+              <a href="gallery.html" class="btn btn-lg btn-primary w-100">Gallery</a>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-3">
               <a href="calendar.html" class="btn btn-lg btn-primary w-100">Calendar</a>
             </div>
           </div>
@@ -153,13 +143,6 @@
           <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FGarner-Elite-14U-Travel-Softball-2105428292910993&tabs=timeline&width=340&height=800&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="340" height="820" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
         </div>
 
-        <div class="col-12">
-          <div class="row mt-3">
-            <div class="col-sm-12 px-0 mx-0">
-              <div id="instafeed"></div>
-            </div>  
-          </div>
-        </div> 
       </div>
 
       <div class="row footer">
