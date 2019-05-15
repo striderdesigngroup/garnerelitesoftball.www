@@ -3,9 +3,10 @@ nav.navbar {
 }
 
 a.navbar-brand {
-	font-size: 1.85rem;
+	font-size: 2.85rem;
 	font-family: 'Graduate', cursive;
 	text-transform: uppercase;
+	color: white !important;;
 }
 
 @media screen and (max-width: 476px) {
@@ -152,7 +153,10 @@ label {
     margin-top: 5px;
 }
 
-
+.softball-bg {
+	padding: 5rem 2rem;
+	background: url('../image/softball-bg.jpg') bottom right no-repeat;
+}
 
 
 
