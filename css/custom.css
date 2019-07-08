@@ -34,12 +34,12 @@ a.nav-link {
 	}
 
 .bg-primary {
-	background: #4a76cf !important;
+	background: #2e59af !important;
 }
 
 .btn-primary {
-	background: #4a76cf !important;
-	border: #4a76cf !important;
+	background: #2e59af !important;
+	border: #2e59af !important;
 	color: white !important;
 }
 
@@ -53,12 +53,12 @@ a.nav-link {
 }
 
 a {
-	color: #4a76cf !important;
+	color: #2e59af !important;
 }
 
 .footer {
 	padding: 2rem 0 1.5rem;
-	color: #4a76cf;
+	color: #2e59af;
 	font-size: .9rem;
 }
 
@@ -67,7 +67,7 @@ a {
 }
 
 button.hamburger {
-	background: #4a76cf !important;
+	background: #2e59af !important;
 	border: none;
 }
 
@@ -85,7 +85,7 @@ a.active {
 
 h2,
 h4 {
-	color: #4a76cf !important;
+	color: #2e59af !important;
 	margin-bottom: 1rem !important;
 }
 
@@ -154,7 +154,7 @@ label {
 }
 
 .softball-bg {
-	padding: 5rem 2rem;
+	padding: 2.5rem 2rem;
 	background: url('../image/softball-bg.jpg') bottom right no-repeat;
 }
 
