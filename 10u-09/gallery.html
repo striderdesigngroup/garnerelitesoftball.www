@@ -21,13 +21,24 @@
 
     <script type="text/javascript" src="../js/instafeed.min.js"></script>
 
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: 15637126432,
+            accessToken: '15637126432.1677ed0.9447073190294a618c8c9d7e1d6d9d90',
+            limit: 56,
+            template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
+        });
+        userFeed.run();
+    </script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/custom.css" />
 
     <link rel="icon" type="image/gif" href="../image/favicon.gif" />
 
-    <title>Roster | Garner Elite 10u (08) Softball</title>
+    <title>Garner Elite 10u (09) Softball</title>
   </head>
   <body id="page-top">
 
@@ -63,8 +74,8 @@
                 Teams
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="home.html">10u (08)</a>
-                <a class="dropdown-item" href="../10u-09/home.html">10u (09)</a>
+                <a class="dropdown-item" href="../10u/home.html">10u (08)</a>
+                <a class="dropdown-item" href="home.html">10u (09)</a>
                 <a class="dropdown-item" href="../12u/home.html">12u</a>
                 <a class="dropdown-item" href="../14u/home.html">14u</a>
                 <a class="dropdown-item" href="../16u/home.html">16u</a>
@@ -76,7 +87,7 @@
             </li>
 
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.facebook.com/GarnerEliteFastpitch/" target="_blank">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.facebook.com/garnerelite09/" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
@@ -90,48 +101,21 @@
     <div class="container">
       <div class="row mb-3">
         <div class="col-12 small-text">
-          <a href="home.html">&laquo; Back to 10u (08) Home</a>
+          <a href="home.html">&laquo; Back to 10u (09) Home</a>
         </div>
       </div>
 
-      <h2>Garner Elite 10u (08) Roster</h2>
+      <h2>Garner Elite 10u (09) Gallery</h2>
 
-      <div class="album">
-        <div class="row">
-
-          <div class="col-md-9">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" src="image/GarnerEliteRosterPhoto.jpg" alt="10u (08) Team">
-              <div class="card-body">
-                <p class="card-text">
-                  Garner Elite 10u (08) Team
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-3">
-            <p>
-              #1: Lindley R.<br />
-              #2: Kylie M.<br />
-              #4: Mayken L.<br />
-              #7: Hailey H.<br />
-              #8: Brittani G.<br />
-              #10: Joslyn B.<br />
-              #15: Lailah C.<br />
-              #22: Lydia L.<br />
-              #34: Juliana W.<br />
-              #55: Alexis E.
-            </p>
-          </div>
-
-          
-        </div>
-      </div>
+      <div class="row">
+        <div class="col-sm-12 px-0">
+          <div id="instafeed"></div>
+        </div>  
+      </div> 
 
       <div class="row footer">
         <div class="col-sm-12 text-center">
-          Copyright &copy; <script>document.write(new Date().getFullYear())</script> Garner Elite Softball. All Rights Reserved. | <a href="mailto:garnerelite10u@gmail.com">garnerelite10u@gmail.com</a> | <a href="tel:+19196301891">(919) 630-1891</a><br />
+          Copyright &copy; <script>document.write(new Date().getFullYear())</script> Garner Elite Softball. All Rights Reserved. <!--| <a href="mailto:garnerelite14u@gmail.com">garnerelite14u@gmail.com</a>--><br />
           Site Produced by <a href="https://www.striderdesigngroup.com" target="_blank"> Strider Design Group, LLC.</a>
         </div>
       </div>
