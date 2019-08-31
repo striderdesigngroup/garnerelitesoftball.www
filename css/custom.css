@@ -140,6 +140,15 @@ h4 {
 	background-color: white;
 }
 
+.jumbotron-platinum {
+	background-color: #999;
+}
+
+.jumbotron-elite {
+	background-color: #2e59af;
+	color: #fff !important;
+}
+	
 	
 /* ===== FORM STYLES ==== */
 
