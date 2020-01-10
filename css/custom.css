@@ -13,6 +13,10 @@ a.navbar-brand {
 	a.navbar-brand {
 		font-size: 98%;
 	}
+
+	.mobile-small {
+		font-size: 80%;
+	}
 }
 
 .img-fluid {

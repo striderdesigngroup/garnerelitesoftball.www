@@ -21,13 +21,24 @@
 
     <script type="text/javascript" src="../js/instafeed.min.js"></script>
 
+    <script type="text/javascript">
+        var userFeed = new Instafeed({
+            get: 'user',
+            userId: 6495683248,
+            accessToken: '6495683248.1677ed0.2a21dde7fff647b0a2aae7ae180d93f3',
+            limit: 14,
+            template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>'
+        });
+        userFeed.run();
+    </script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../css/bootstrap.min.css" />
     <link rel="stylesheet" href="../css/custom.css" />
 
-    <link rel="icon" type="image/gif" href="../image/favicon.gif" />
+    <link rel="icon" type="image/gif" href="image/favicon.gif" />
 
-    <title>Sponsors | Garner Elite 10u Softball</title>
+    <title>Calendar | Garner Elite 14u Softball</title>
   </head>
   <body id="page-top">
 
@@ -43,10 +54,10 @@
         </div>
       </div>
     </div>
-
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary" id="mainNav">
       <div class="container">
-        <a class="text-white js-scroll-trigger" href="../index.html">
+        <a class="text-white js-scroll-trigger mobile-small" href="../index.html">
           Garner Elite Fastpitch Softball Organization
         </a>
         <button class="navbar-toggler navbar-toggler-right text-uppercase bg-secondary text-black hamburger" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,11 +74,8 @@
                 Teams
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="../10u/home.html">10u (08)</a>
-                <a class="dropdown-item" href="home.html">10u (08)</a>
-                <a class="dropdown-item" href="../12u/home.html">12u</a>
-                <a class="dropdown-item" href="../14u/home.html">14u</a>
-                <a class="dropdown-item" href="../16u/home.html">16u</a>
+                <a class="dropdown-item" href="../05-team/home.html">14u</a>
+                <a class="dropdown-item" href="home.html">14u</a>
               </div>
             </li>
 
@@ -76,7 +84,7 @@
             </li>
 
             <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.facebook.com/GarnerEliteFastpitch/" target="_blank">
+              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="https://www.facebook.com/Garner-Elite-14U-Travel-Softball-2105428292910993/" target="_blank">
                 <i class="fab fa-facebook-f"></i>
               </a>
             </li>
@@ -90,76 +98,21 @@
     <div class="container">
       <div class="row mb-3">
         <div class="col-12 small-text">
-          <a href="home.html">&laquo; Back to 10u (09) Home</a>
+          <a href="home.html">&laquo; Back to 14u Home</a>
         </div>
       </div>
 
-      <h2>Garner Elite 10u (09) Sponsors</h2>
+      <h2>Garner Elite 14u Schedule</h2>
 
-      <div class="jumbotron jumbotron-elite">
-        <h1>Elite Sponsors</h1>
-        <div class="row pb-4">
-          <div class="col-sm-6 offset-sm-3">
-            <a href="https://ecostyleusa.com/" target="_blank"><img src="image/ecostyle.png" class="img-fluid"  alt="Ecostyle Chauffeured Transportation" /></a><br />
-            <a href="https://ecostyleusa.com/" target="_blank">Ecostyle Chauffeured Transportation</a>
-          </div> 
-        </div>  
-      </div>
-
-      <div class="jumbotron jumbotron-platinum">
-        <h1>Platinum Sponsors</h1>
-        <div class="row pb-4">
-          <div class="col-sm-6 offset-sm-3">
-            <a href="https://pcxcorp.com/" target="_blank"><img src="image/pcx.jpg" class="img-fluid"  alt="PCX Prebuild Power Solutions" /></a><br />
-            <a href="https://pcxcorp.com/" target="_blank">PCX Prebuild Power Solutions</a></a>
-          </div> 
-        </div>   
-      </div>
-      
-      <div class="jumbotron jumbotron-gold">
-        <h1>Gold Sponsors</h1>
-        <div class="row mb-4"> 
-
-          <div class="col-sm-6 offset-sm-3">
-            <a href="https://www.twistedscizzorsonline.com/" target="_blank"><img src="image/twisted-scizzors.jpg" class="img-fluid"  alt="Twisted Scizzors Salon" /></a><br />
-            <a href="https://www.twistedscizzorsonline.com/" target="_blank">Twisted Scizzors Salon</a>
-          </div>  
-
-          <div class="col-sm-8 offset-sm-2">
-            <a href="https://wakecountylaw.com/" target="_blank"><img src="image/Anna-Smith-Logo.png" class="img-fluid" alt="Anna Smith Felts, PLLC" /></a><br />
-            <a href="https://wakecountylaw.com/" target="_blank">Anna Smith Felts, PLLC</a>
-          </div>    
-          
+      <div class="row">
+        <div class="col-12">
+          <p class="mb-5 pb-5">Coming Soon!</p>
         </div>
       </div>
-
-      <div class="jumbotron jumbotron-silver">
-        <h1>Silver Sponsors</h1>
-        <div class="row pb-4">
-          <div class="col-sm-4">
-            <a href="https://www.projectspecific.com/" target="_blank"><img src="image/psi.jpg" class="img-fluid"  alt="Project Specific, Inc." /></a><br />
-            <a href="https://www.projectspecific.com/" target="_blank">Project Specific, Inc.</a></a>
-          </div> 
-          <div class="col-sm-4">
-            <a href="https://www.dickssportinggoods.com/" target="_blank"><img src="image/dicks-sporting-goods.png" class="img-fluid"  alt="Dick's Sporting Goods" /></a><br />
-            <a href="https://www.dickssportinggoods.com/" target="_blank">Dick's Sporting Goods</a></a>
-          </div> 
-
-          <div class="col-sm-4">
-            <a href="http://www.barrettsuzuki.com/" target="_blank"><img src="image/barrett.jpg" class="img-fluid"  alt="Barrett Suzuki" /></a><br />
-            <a href="http://www.barrettsuzuki.com/" target="_blank">Barrett Suzuki Music Studio</a></a>
-          </div> 
-
-          <div class="col-sm-6 offset-sm-3 pt-5">
-            Personal Donation Made by Ashley Gallego
-          </div>
-        </div>   
-      </div>
-      
 
       <div class="row footer">
         <div class="col-sm-12 text-center">
-          Copyright &copy; <script>document.write(new Date().getFullYear())</script> Garner Elite Softball. All Rights Reserved. | <a href="mailto:garnerelite10u@gmail.com">garnerelite10u@gmail.com</a> | <a href="tel:+19196301891">(919) 630-1891</a><br />
+          Copyright &copy; <script>document.write(new Date().getFullYear())</script> Garner Elite Softball. All Rights Reserved. | <a href="mailto:garnerelite14u@gmail.com">garnerelite14u@gmail.com</a> | <a href="tel:+19193024648">(919) 302-4648</a><br />
           Site Produced by <a href="https://www.striderdesigngroup.com" target="_blank"> Strider Design Group, LLC.</a>
         </div>
       </div>
