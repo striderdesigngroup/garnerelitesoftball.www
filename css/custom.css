@@ -3,11 +3,29 @@ nav.navbar {
 }
 
 a.navbar-brand {
-	font-size: 1.85rem;
+	font-size: 2.85rem;
+	font-family: 'Graduate', cursive;
+	text-transform: uppercase;
+	color: white !important;;
+}
+
+@media screen and (max-width: 476px) {
+	a.navbar-brand {
+		font-size: 98%;
+	}
+
+	.mobile-small {
+		font-size: 80%;
+	}
 }
 
 .img-fluid {
 	margin-bottom: 1.25rem;
+	width: 100% !important;
+}
+
+.small-text {
+	font-size: 80%;
 }
 
 a.nav-link {
@@ -20,25 +38,31 @@ a.nav-link {
 	}
 
 .bg-primary {
-	background: #4a76cf !important;
+	background: #2e59af !important;
 }
 
 .btn-primary {
-	background: #4a76cf !important;
-	border: #4a76cf !important;
+	background: #2e59af !important;
+	border: #2e59af !important;
+	color: white !important;
 }
+
+	.btn-primary:hover {
+		background: black  !important;
+		border: black  !important;
+	}
 
 .bg-secondary {
 	background: #FFCB3E !important;
 }
 
 a {
-	color: #4a76cf !important;
+	color: #2e59af !important;
 }
 
 .footer {
 	padding: 2rem 0 1.5rem;
-	color: #4a76cf;
+	color: #2e59af;
 	font-size: .9rem;
 }
 
@@ -47,7 +71,7 @@ a {
 }
 
 button.hamburger {
-	background: #4a76cf !important;
+	background: #2e59af !important;
 	border: none;
 }
 
@@ -63,8 +87,9 @@ a.active {
 	text-align: center;
 }
 
-h2 {
-	color: #4a76cf !important;
+h2,
+h4 {
+	color: #2e59af !important;
 	margin-bottom: 1rem !important;
 }
 
@@ -75,8 +100,8 @@ h2 {
 }
 
 #instafeed img {
-	width: 9rem;
-	margin: 0 .75rem .75rem 0 !important;
+	width: 150px;
+	margin: 0.35rem !important;
 }
 
 /* ==== SPONSORS ==== */
@@ -119,6 +144,19 @@ h2 {
 	background-color: white;
 }
 
+.jumbotron-platinum {
+	background-color: #999;
+}
+
+.jumbotron-elite {
+	background-color: #2e59af;
+	color: #fff !important;
+}
+
+	.jumbotron-elite a {
+		color: #fff !important;
+	}
+	
 	
 /* ===== FORM STYLES ==== */
 
@@ -132,7 +170,10 @@ label {
     margin-top: 5px;
 }
 
-
+.softball-bg {
+	padding: 2.5rem 2rem;
+	background: url('../image/softball-bg.jpg') bottom right no-repeat;
+}
 
 
 
