@@ -9,7 +9,27 @@ a.navbar-brand {
 	color: white !important;;
 }
 
-@media screen and (max-width: 476px) {
+.desktop-content {
+	display: block;
+}
+
+.mobile-content {
+	display: none;
+}
+
+@media screen and (max-width: 768px) {
+	.desktop-content {
+		display: none !important;
+	}
+
+	.mobile-content {
+		display: block;
+	}
+}
+
+
+
+@media screen and (max-width: 768px) {
 	a.navbar-brand {
 		font-size: 98%;
 	}
@@ -17,6 +37,7 @@ a.navbar-brand {
 	.mobile-small {
 		font-size: 80%;
 	}
+	
 }
 
 .img-fluid {
